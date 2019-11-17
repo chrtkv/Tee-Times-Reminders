@@ -1,0 +1,14 @@
+{
+    "feed": {
+        "trigger": "http://statdata.pgatour.com/trigger/trigger.xml",
+        "tee_times": "http://statdata.pgatour.com/{}/{}/teetimes.json",
+        "schedule": "http://statdata.pgatour.com/r/current/schedule-v2.json",
+        "message": "https://statdata.pgatour.com/{}/{}/message.json"
+    },
+    "slack": {
+        "email": "kirill.chertkov@ix.co",
+        "password": "7hi-FHd-LcY-48H",
+        "url": "https://thisisix.slack.com",
+        "group": "G03TTNNPD"
+    }
+}
